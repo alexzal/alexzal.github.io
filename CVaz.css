@@ -1,0 +1,15 @@
+
+
+#conteneur {
+    display: flex;
+}
+
+#conteneur_yellow {
+    width: 30%;
+    background-color: #FDD835;
+}
+
+#conteneur_white
+{
+    flex-grow:1;
+}
