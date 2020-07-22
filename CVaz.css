@@ -43,12 +43,18 @@ h3{
 
 
 h4{
-    font-family: 'robotobold', Arial, sans-serif;
+    font-family: 'robotolight', Arial, sans-serif;
     font-size: 1.4em;
     text-align: center;
-    background-color: darkgray;
+    background-color: #424242;
     color: #FDD835;
 }
+
+
+img {
+  border-radius: 50%;
+}
+
 
 #conteneur {
     display: flex;
@@ -56,15 +62,17 @@ h4{
 }
 
 #conteneur_yellow {
+  
     width: 30%;
-    
     background-color: #FDD835;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: stretch;
     
 }
+
+
 
 #conteneur_white
 {
@@ -73,7 +81,7 @@ h4{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 
@@ -93,4 +101,11 @@ h4{
 
 .prenom {
     font-family:'robotoregular', Arial, sans-serif;
+    color:#FDD835;
+}
+
+.icon {
+       display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
