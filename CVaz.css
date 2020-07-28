@@ -155,12 +155,7 @@ padding-bottom: 150px;
 
 @media all and (max-device-width: 480px)
 {
-   #conteneur {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-  
-}
+   
     .img_col_yel:nth-child(1) {
         order: 1;
     }
