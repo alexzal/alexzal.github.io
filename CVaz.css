@@ -34,7 +34,7 @@ h1 {
 h2 {
     font-family: 'robotolight', Arial, sans-serif;
     font-size: 1.2em;
-    border-bottom: 2px #FDD835 solid;
+
     
    
 }
@@ -98,7 +98,9 @@ img {
     align-items: flex-start;
 }
 
-
+.col-white {
+      width:70%; 
+}
 
 .date_exp {
     display: flex;
@@ -139,6 +141,41 @@ padding: 10px;
 }
 
 .section_yel {
-  
+padding:20px; 
 padding-bottom: 150px;
+}
+
+.underline-y {
+    border-bottom: 2px #FDD835 solid;
+}
+
+
+
+
+
+@media all and (max-device-width: 480px)
+{
+   #conteneur {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  
+}
+    .img_col_yel:nth-child(1) {
+        order: 1;
+    }
+    
+    #conteneur_white:nth-child(2) {
+        order: 2;
+    }
+    
+    .contact:nth-child(3) {
+        order: 3;
+    }
+    .a_propos:nth-child(4) {
+        order: 4;
+    }
+    
+    .loisirs:nth-child(5)
+        order:4;
 }
