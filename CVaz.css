@@ -153,10 +153,9 @@ padding-bottom: 150px;
 
 
 
-@media all and (max-device-width: 900px)
+@media all and (max-device-width: 480px)
 {
    #conteneur {
-    display: flex;
     flex-direction: column;
     width: auto;
   
