@@ -153,14 +153,14 @@ padding-bottom: 150px;
 
 
 
-@media all and (max-device-width: 600px)
+@media all and (max-device-width: 900px)
 {
-   main {
+   #conteneur {
     display: flex;
     flex-direction: column;
     width: auto;
   
-}
+    }
     .img_col_yel:nth-child(1) {
         order: 1;
     }
