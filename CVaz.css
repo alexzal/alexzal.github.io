@@ -176,6 +176,8 @@ padding-bottom: 150px;
         order: 4;
     }
     
-    .loisirs:nth-child(5)
-        order:4;
+    .loisirs:nth-child(5){
+         order:5;
+    }
+       
 }
