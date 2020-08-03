@@ -78,7 +78,7 @@ img {
     font-family: 'robotoregular', Arial, sans-serif;
 }
 
-#conteneur_yellow {
+.conteneur_yellow {
   
     width: 40%;
     background-color: #FDD835;
@@ -161,19 +161,21 @@ padding-bottom: 150px;
   
     }
     
-    #conteneur_yellow {
-        display:none:
+    .conteneur_yellow {
+        /*display:none;*/
+        width: 100%;
+        order: 2;
     }
-
     
     .img_col_yel:nth-child(1) {
-        order: 1;
+        /*order: 1;*/ /* A virer car pas besoin sur la photo */
         background-color: #FDD835;
+        width: 100%;
+        padding: 0; 
     }
     
     #conteneur_white:nth-child(2) {
-        order: 2;
-        
+        order: 1;
     }
     
     .contact:nth-child(3) {
@@ -190,5 +192,29 @@ padding-bottom: 150px;
          order:5;
         background-color: #FDD835;
     }
+
+    h3 {
+        font-size: 1.5em;
+    }
        
 }
+
+.hiddenondesktop {
+    display: none;
+}
+.hidbenonmobile {
+    display: block;
+}
+@media all and (max-device-width: 480px){
+    .hiddenondesktop {
+        display: block;
+    }
+    .hidbenonmobile {
+        display: none;
+    }
+}
+
+.col_white { width: 100%; }
+.date_exp p { width: 50%; }
+
+html, body { margin:0; padding:0; }
