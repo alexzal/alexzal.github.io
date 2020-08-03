@@ -150,7 +150,12 @@ padding-bottom: 150px;
 }
 
 
-
+.hiddenondesktop {
+    display: none;
+}
+.hidbenonmobile {
+    display: block;
+}
 
 
 @media all and (max-device-width: 480px)
@@ -167,7 +172,7 @@ padding-bottom: 150px;
         order: 2;
     }
     
-    .img_col_yel:nth-child(1) {
+    .img_col_yel {
         /*order: 1;*/ /* A virer car pas besoin sur la photo */
         background-color: #FDD835;
         width: 100%;
@@ -178,34 +183,12 @@ padding-bottom: 150px;
         order: 1;
     }
     
-    .contact:nth-child(3) {
-        order: 3;
-        background-color: #FDD835;
-    }
-    
-    .a_propos:nth-child(4) {
-        order: 4;
-        background-color: #FDD835;
-    }
-    
-    .loisirs:nth-child(5){
-         order:5;
-        background-color: #FDD835;
-    }
-
+   
     h3 {
         font-size: 1.5em;
     }
        
-}
 
-.hiddenondesktop {
-    display: none;
-}
-.hidbenonmobile {
-    display: block;
-}
-@media all and (max-device-width: 480px){
     .hiddenondesktop {
         display: block;
     }
