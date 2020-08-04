@@ -63,13 +63,13 @@ img {
   
 }
 
-#circle_i {
+.circle_i {
     border: 1px black solid;
     border-radius:50%;
     padding: 7px;
 }
 
-#yel_i {
+.yel_i {
     color:#FDD835;
     padding-right:10px;
 }
@@ -142,62 +142,69 @@ padding: 10px;
 
 .section_yel {
 padding:20px; 
-padding-bottom: 150px;
+
 }
 
 .underline-y {
     border-bottom: 2px #FDD835 solid;
 }
 
-
 .hiddenondesktop {
-    display: none;
-}
-.hidbenonmobile {
-    display: block;
-}
+        display: none;
+    }
+
+.hiddenonmobile {
+		display: block;
+		background-color: #FDD835;
+        width: 100%;
+		text-align: center;
+        padding: 0 px; 
+    }
+
 
 
 @media all and (max-device-width: 480px)
 {
-   #conteneur {
-        flex-direction: column;
+main {
+		display:flex;
+		flex-direction:column;
         width: auto;
-  
     }
-    
-    .conteneur_yellow {
+	
+.hiddenondesktop {
+		display: block;
+		background-color: #FDD835;
+        width: 100%;
+		margin-left: auto;
+   		margin-right: auto;
+        padding: 0; 
+    	}
+	
+.hiddenonmobile {
+		display: none;
+	}
+	
+.conteneur_yellow {
         /*display:none;*/
         width: 100%;
         order: 2;
     }
     
-    .img_col_yel {
-        /*order: 1;*/ /* A virer car pas besoin sur la photo */
-        background-color: #FDD835;
-        width: 100%;
-        padding: 0; 
-    }
     
-    #conteneur_white:nth-child(2) {
+#conteneur_white {
         order: 1;
     }
     
    
-    h3 {
-        font-size: 1.5em;
+h3 {
+        font-size: 1em;
     }
        
 
-    .hiddenondesktop {
-        display: block;
-    }
-    .hidbenonmobile {
-        display: none;
-    }
-}
 
 .col_white { width: 100%; }
-.date_exp p { width: 50%; }
+.date_exp, p { width: 50%; }
 
 html, body { margin:0; padding:0; }
+
+	}
