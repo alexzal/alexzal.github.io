@@ -161,7 +161,7 @@ padding:20px;
 		background-color: #FDD835;
         width: 100%;
 		text-align: center;
-        padding: 0 px; 
+        padding: 0px; 
     }
 
 
@@ -192,7 +192,7 @@ main {
         /*display:none;*/
         width: 100%;
         order: 2;
-		padding-top:-20px;
+		marging-top:-20px;
     }
     
     
