@@ -172,7 +172,8 @@ padding:20px;
 main {
 		display:flex;
 		flex-direction:column;
-        width: 100%;
+        width: auto;
+		margin:-30px; 
     }
 	
 .hiddenondesktop {
@@ -181,7 +182,6 @@ main {
         width: 100%;
 		text-align: center;
         padding: 30px; 
-		margin:-30px;
 		margin-bottom: 0px;
     	}
 	
@@ -193,9 +193,7 @@ main {
         /*display:none;*/
         width: 100%;
         order: 2;
-		margin-top: 20px; 
-		
-		
+		margin-top: 20px;
 		
     }
     
@@ -210,21 +208,21 @@ main {
      
 .date {
     width: 100%;
-	margin-top:50px;
-    
+	margin-top:50px; 
 }
+	
 .date_exp {
     display: block;
 }
-.contact, .loisirs, .a_propos {
 	
+.contact, .loisirs, .a_propos {
 		margin-top: -30px;
 		
 	}
 	
 .text_col_yel {
   		text-align: justify;
-		padding: 10px;
+		padding: 20px;
 		margin-top:-20px;
 	}
 	
