@@ -181,7 +181,8 @@ main {
         width: 100%;
 		text-align: center;
         padding: 30px; 
-		
+		margin-left:-30px;
+		margin-right:-30px;
 		margin-bottom: 0px;
     	}
 	
@@ -194,6 +195,8 @@ main {
         width: auto;
         order: 2;
 		margin-top: 20px; 
+		margin-left:-30px;
+		margin-right:-30px;
 		
     }
     
@@ -201,6 +204,8 @@ main {
 #conteneur_white {
         order: 1;
 		margin-bottom: 20px;
+		margin-left:-30px;
+		margin-right:-30px;
     }
     
      
@@ -213,6 +218,7 @@ main {
     display: block;
 }
 	.contact, .loisirs, .a_propos {
+		margin-left:-30px;
 		margin-right:-30px;
 		
 	}
