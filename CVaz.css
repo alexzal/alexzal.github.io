@@ -182,12 +182,14 @@ main {
 		background-color: #FDD835;
         width: 100%;
 		text-align: center;
-        
+        padding: -40px;
 		margin-bottom: 0px;
+	margin-left: -20px; 
     	}
 	
 	.header {
 		width: 100%;
+		margin-left: -20px; 
 	}
 	
 .hiddenonmobile {
@@ -207,6 +209,7 @@ main {
 		width: 100%;
         order: 1;
 		margin-bottom: 20px;
+		margin-left: -20px; 
 
     }
     
