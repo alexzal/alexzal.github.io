@@ -193,12 +193,13 @@ main {
         /*display:none;*/
         width: 100%;
         order: 2;
-		margin-top:-20px;
+		margin: -30px;
     }
     
     
 #conteneur_white {
         order: 1;
+		margin: -30px;
     }
     
      
@@ -212,7 +213,7 @@ main {
 }
 	.contact, .loisirs, .a_propos {
 		margin-top:-30px;
-		margin-right:-30px;
+		
 	}
 	h3 {
         font-size: 1.5em;
