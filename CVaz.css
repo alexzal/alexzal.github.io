@@ -191,7 +191,7 @@ main {
 	
 .conteneur_yellow {
         /*display:none;*/
-        width: 100%;
+        width: auto;
         order: 2;
 		margin-right: -30px; 
     }
