@@ -181,8 +181,7 @@ main {
         width: 100%;
 		text-align: center;
         padding: 30px; 
-		margin-left:-30px;
-		margin-right:-30px;
+		margin:-30px;
 		margin-bottom: 0px;
     	}
 	
@@ -192,11 +191,11 @@ main {
 	
 .conteneur_yellow {
         /*display:none;*/
-        width: auto;
+        width: 100%;
         order: 2;
 		margin-top: 20px; 
-		margin-left:-30px;
-		margin-right:-30px;
+		
+		
 		
     }
     
@@ -204,29 +203,35 @@ main {
 #conteneur_white {
         order: 1;
 		margin-bottom: 20px;
-		margin-left:-30px;
-		margin-right:-30px;
+
     }
     
      
-	.date {
+.date {
     width: 100%;
 	margin-top:50px;
     
 }
-	.date_exp {
+.date_exp {
     display: block;
 }
-	.contact, .loisirs, .a_propos {
+.contact, .loisirs, .a_propos {
 	
 		margin-top: -30px;
 		
 	}
 	
-	h3 {
+.text_col_yel {
+  		text-align: justify;
+		padding: 10px;
+		margin-top:-20px;
+	}
+	
+h3 {
         font-size: 1.3em;
     }
-	.recommandations {
+		
+.recommandations {
 		margin-bottom:30px;
 	}
 
