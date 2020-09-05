@@ -181,7 +181,7 @@ main {
         width: 100%;
 		text-align: center;
         padding: 30px; 
-		margin: -30px; 
+		
 		margin-bottom: 0px;
     	}
 	
@@ -193,7 +193,8 @@ main {
         /*display:none;*/
         width: auto;
         order: 2;
-		
+		margin-top: 20px; 
+		margin-right: -30px; 
     }
     
     
