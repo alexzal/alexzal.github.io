@@ -182,9 +182,9 @@ main {
 		background-color: #FDD835;
         width: 100%;
 		text-align: center;
-        padding: -40px;
 		margin-bottom: 30px;
 		margin-left: -20px; 
+		margin-right: -20px;
     	}
 	
 	.header {
