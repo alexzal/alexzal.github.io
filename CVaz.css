@@ -173,17 +173,15 @@ padding:20px;
 main {
 		display:flex;
 		flex-direction:column;
-        width: 110%;
+        width: auto;
     }
 	
 .hiddenondesktop {
 		display: block;
 		background-color: #FDD835;
-        width: 100%;
+        width: 120%;
 		text-align: center;
-		margin-bottom: 30px;
-		margin-left:-30px; 
-		margin-right:-50px;
+		
     	}
 	
 	.header {
@@ -209,7 +207,7 @@ main {
     
     
 #conteneur_white {
-		width: 100%;
+		width: 80%;
         order: 1;
 		margin-bottom: 20px;
 		margin-left: -30px;
