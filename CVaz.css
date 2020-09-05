@@ -172,7 +172,7 @@ padding:20px;
 main {
 		display:flex;
 		flex-direction:column;
-        width: auto;
+        width: 100%;
     }
 	
 .hiddenondesktop {
