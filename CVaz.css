@@ -218,13 +218,13 @@ main {
     display: block;
 }
 	.contact, .loisirs, .a_propos {
-		margin-left:-30px;
-		margin-right:-30px;
+	
+		margin-top: -30px;
 		
 	}
 	
 	h3 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 	.recommandations {
 		margin-bottom:30px;
