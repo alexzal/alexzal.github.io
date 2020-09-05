@@ -169,12 +169,14 @@ padding:20px;
 
 @media all and (max-width: 520px)
 {
+	body {
+		width:100%;
+		martgin-right:-20px;
+	}
 main {
 		display:flex;
 		flex-direction:column;
         width: auto;
-		 
-	 
     }
 	
 .hiddenondesktop {
