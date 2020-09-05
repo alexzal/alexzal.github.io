@@ -173,7 +173,7 @@ main {
 		display:flex;
 		flex-direction:column;
         width: auto;
-		margin:-50px; 
+	 
     }
 	
 .hiddenondesktop {
@@ -182,6 +182,7 @@ main {
         width: 100%;
 		text-align: center;
         padding: 30px; 
+	 	margin-left:-60px;
 		margin-bottom: 0px;
     	}
 	
