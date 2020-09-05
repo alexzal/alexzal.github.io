@@ -173,6 +173,7 @@ main {
 		display:flex;
 		flex-direction:column;
         width: auto;
+		 
 	 
     }
 	
@@ -181,9 +182,13 @@ main {
 		background-color: #FDD835;
         width: 100%;
 		text-align: center;
-        padding: 0px; 
+        
 		margin-bottom: 0px;
     	}
+	
+	.header {
+		width: 100%;
+	}
 	
 .hiddenonmobile {
 		display: none;
