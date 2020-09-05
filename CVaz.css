@@ -169,14 +169,11 @@ padding:20px;
 
 @media all and (max-width: 520px)
 {
-	body {
-		width:100%;
-		martgin-right:-20px;
-	}
+	
 main {
 		display:flex;
 		flex-direction:column;
-        width: auto;
+        width: 100%;
     }
 	
 .hiddenondesktop {
@@ -185,8 +182,8 @@ main {
         width: 100%;
 		text-align: center;
 		margin-bottom: 30px;
-		margin-left: -20px; 
-		margin-right: 0px;
+		margin-left:-30px; 
+		margin-right:-50px;
     	}
 	
 	.header {
