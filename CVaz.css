@@ -167,7 +167,7 @@ padding:20px;
 
 
 
-@media all and (max-width: 520px)
+@media all and (max-width: 480px)
 {
 	
 main {
@@ -199,13 +199,13 @@ main {
         width: 100%;
         order: 2;
 		margin-top: 20px;
-
-		
+		padding-right: 30px;
+	
     }
     
     
 #conteneur_white {
-		width: 90%;
+		width: 100%;
         order: 1;
 		margin-bottom: 20px;
 		
